@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CefSharp.MinimalExample.Wpf</RootNamespace>
     <AssemblyName>CefSharp.MinimalExample.Wpf</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -131,16 +131,16 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="cef.redist.x64">
-      <Version>75.1.14</Version>
+      <Version>3.2623.1396</Version>
     </PackageReference>
     <PackageReference Include="cef.redist.x86">
-      <Version>75.1.14</Version>
+      <Version>3.2623.1396</Version>
     </PackageReference>
     <PackageReference Include="CefSharp.Common">
-      <Version>75.1.143</Version>
+      <Version>49.0.0</Version>
     </PackageReference>
     <PackageReference Include="CefSharp.Wpf">
-      <Version>75.1.143</Version>
+      <Version>49.0.0</Version>
     </PackageReference>
     <PackageReference Include="System.Windows.Interactivity.WPF">
       <Version>2.0.20525</Version>

@@ -31,7 +31,7 @@
             </Grid.ColumnDefinitions>
             <Button Content="Back" Command="{Binding WebBrowser.BackCommand, ElementName=Browser}" Width="50"/>
             <Button Content="Forward" Command="{Binding WebBrowser.ForwardCommand, ElementName=Browser}" Grid.Column="1" Width="60"/>
-            <TextBox x:Name="txtBoxAddress" Text="{Binding Address, ElementName=Browser, FallbackValue=www.google.com}" Grid.Column="2" FontSize="12" BorderBrush="Gray" BorderThickness="1">
+            <TextBox x:Name="txtBoxAddress" Text="{Binding Address, ElementName=Browser, FallbackValue=www.baidu.com}" Grid.Column="2" FontSize="12" BorderBrush="Gray" BorderThickness="1">
                 <i:Interaction.Behaviors>
                     <behaviours:TextBoxBindingUpdateOnEnterBehaviour />
                 </i:Interaction.Behaviors>
